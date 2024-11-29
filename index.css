@@ -56,11 +56,12 @@ header > h1 {
 header img {
     position: absolute;
     width: 100%;
+    /*max-height: 100%;*/
     left: 0;
     top: 0;
     z-index: -10;
     /*box-shadow: 0 0 8px 8px white inset;*/
-    filter: blur(2px);
+    filter: blur(1.5px);
 }
 
 header h1 {
