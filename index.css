@@ -1,0 +1,228 @@
+/* Jony Ive inspired minimalist CSS for NovaEvent landing page with Flexbox for adaptive design, updated with attention to simplicity, elegance, and consistency */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+    background-color: #ffffff;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #0073e6;
+    color: #ffffff;
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 2.8em;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+header p {
+    font-size: 1.4em;
+    font-weight: 300;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e0e0e0;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: 500;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #005bb5;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+#intro {
+    padding: 70px 20px;
+    background-color: #f0f8ff;
+    border-radius: 8px;
+}
+
+#intro h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 400;
+}
+
+#intro p {
+    font-size: 1.2em;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.8;
+    color: #555;
+}
+
+#features ul {
+    list-style: none;
+    margin: 40px auto;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#features ul li {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: box-shadow 0.3s ease;
+}
+
+#features ul li:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+#features ul li strong {
+    display: block;
+    font-size: 1.3em;
+    color: #0073e6;
+    margin-bottom: 10px;
+}
+
+#testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#testimonials blockquote {
+    max-width: 600px;
+    margin: 40px auto;
+    font-style: italic;
+    color: #555;
+    border-left: 4px solid #0073e6;
+    padding-left: 20px;
+    align-self: center;
+}
+
+#testimonials cite {
+    display: block;
+    margin-top: 10px;
+    color: #777;
+    font-weight: 300;
+}
+
+#team ul {
+    list-style: none;
+    max-width: 800px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#team ul li {
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+#team ul li strong {
+    color: #333;
+    font-weight: 500;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+#contact a {
+    color: #0073e6;
+    text-decoration: none;
+    transition: color 0.3s;
+    margin: 5px 0;
+    font-weight: 500;
+}
+
+#contact a:hover {
+    color: #005bb5;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #e0e0e0;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 60px;
+}
+
+footer p {
+    font-size: 0.9em;
+    color: #777;
+    margin: 10px 0;
+}
+
+footer a {
+    color: #0073e6;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #005bb5;
+}
