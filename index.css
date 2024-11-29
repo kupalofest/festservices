@@ -99,7 +99,7 @@ section {
     color: #555;
 }
 
-#features ul {
+#services ul {
     list-style: none;
     margin: 40px auto;
     max-width: 800px;
@@ -108,7 +108,7 @@ section {
     gap: 25px;
 }
 
-#features ul li {
+#services ul li {
     background: #ffffff;
     border: 1px solid #e0e0e0;
     padding: 20px;
@@ -120,11 +120,11 @@ section {
     transition: box-shadow 0.3s ease;
 }
 
-#features ul li:hover {
+#services ul li:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
-#features ul li strong {
+#services ul li strong {
     display: block;
     font-size: 1.3em;
     color: #0073e6;
