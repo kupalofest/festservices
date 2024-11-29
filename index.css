@@ -1,5 +1,4 @@
-/* Jony Ive inspired minimalist CSS for NovaEvent landing page with Flexbox for adaptive design, updated with attention to simplicity, elegance, and consistency */
-
+/* Dark and Muted Design for NovaEvent with Minimalist Aesthetics */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,8 +8,8 @@
 
 body {
     line-height: 1.6;
-    color: #333;
-    background-color: #ffffff;
+    color: #d4d4d4;
+    background-color: #121212;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
@@ -22,8 +21,8 @@ body {
 header {
     text-align: center;
     padding: 50px 20px;
-    background-color: #0073e6;
-    color: #ffffff;
+    background: linear-gradient(45deg, #6c4fbb, #4f75a3);
+    color: #f0f0f0;
     width: 100%;
     border-radius: 8px;
     margin-bottom: 40px;
@@ -44,8 +43,8 @@ nav {
     display: flex;
     justify-content: center;
     padding: 20px 0;
-    background-color: #f8f8f8;
-    border-bottom: 1px solid #e0e0e0;
+    background-color: #1e1e1e;
+    border-bottom: 1px solid #333;
     width: 100%;
     margin-bottom: 40px;
 }
@@ -61,14 +60,14 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: #0073e6;
+    color: #8eacd0;
     font-weight: 500;
     font-size: 1.1em;
     transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    color: #005bb5;
+    color: #6c8aad;
 }
 
 section {
@@ -76,18 +75,19 @@ section {
     text-align: center;
     width: 100%;
     margin-bottom: 40px;
+    color: #bfbfbf;
 }
 
 #intro {
     padding: 70px 20px;
-    background-color: #f0f8ff;
+    background-color: #1e1e1e;
     border-radius: 8px;
 }
 
 #intro h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: #333;
+    color: #eaeaea;
     font-weight: 400;
 }
 
@@ -96,7 +96,7 @@ section {
     max-width: 700px;
     margin: 0 auto;
     line-height: 1.8;
-    color: #555;
+    color: #a8a8a8;
 }
 
 #services ul {
@@ -109,25 +109,26 @@ section {
 }
 
 #services ul li {
-    background: #ffffff;
-    border: 1px solid #e0e0e0;
+    background: #161616;
+    border: 1px solid #333;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
     align-items: center;
-    transition: box-shadow 0.3s ease;
+    transition: box-shadow 0.3s ease, transform 0.2s;
 }
 
 #services ul li:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
 }
 
 #services ul li strong {
     display: block;
     font-size: 1.3em;
-    color: #0073e6;
+    color: #8eacd0;
     margin-bottom: 10px;
 }
 
@@ -142,8 +143,8 @@ section {
     max-width: 600px;
     margin: 40px auto;
     font-style: italic;
-    color: #555;
-    border-left: 4px solid #0073e6;
+    color: #cfcfcf;
+    border-left: 4px solid #8eacd0;
     padding-left: 20px;
     align-self: center;
 }
@@ -151,7 +152,7 @@ section {
 #testimonials cite {
     display: block;
     margin-top: 10px;
-    color: #777;
+    color: #8c8c8c;
     font-weight: 300;
 }
 
@@ -166,17 +167,17 @@ section {
 
 #team ul li {
     padding: 20px;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #333;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background-color: #ffffff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    background-color: #161616;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 #team ul li strong {
-    color: #333;
+    color: #d4d4d4;
     font-weight: 500;
 }
 
@@ -189,7 +190,7 @@ section {
 }
 
 #contact a {
-    color: #0073e6;
+    color: #8eacd0;
     text-decoration: none;
     transition: color 0.3s;
     margin: 5px 0;
@@ -197,14 +198,14 @@ section {
 }
 
 #contact a:hover {
-    color: #005bb5;
+    color: #6c8aad;
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #f8f8f8;
-    border-top: 1px solid #e0e0e0;
+    background-color: #1e1e1e;
+    border-top: 1px solid #333;
     width: 100%;
     border-radius: 8px;
     margin-top: 60px;
@@ -212,17 +213,17 @@ footer {
 
 footer p {
     font-size: 0.9em;
-    color: #777;
+    color: #8c8c8c;
     margin: 10px 0;
 }
 
 footer a {
-    color: #0073e6;
+    color: #8eacd0;
     text-decoration: none;
     margin: 0 5px;
     transition: color 0.3s;
 }
 
 footer a:hover {
-    color: #005bb5;
+    color: #6c8aad;
 }
