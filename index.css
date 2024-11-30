@@ -61,7 +61,7 @@ header img {
     top: 0;
     z-index: -10;
     /*box-shadow: 0 0 8px 8px white inset;*/
-    filter: blur(1.5px);
+    /*filter: blur(1.5px);*/
 }
 
 header h1 {
@@ -243,7 +243,7 @@ footer {
     background-color: #1e1e1e;
     border-top: 1px solid #333;
     width: 100%;
-    /*border-radius: 8px;*/
+    border-radius: 8px;
     margin-top: 60px;
 }
 
@@ -289,4 +289,10 @@ footer a:hover {
     background: radial-gradient(circle, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 1) 100%);
     pointer-events: none; /* Ensure it doesn't block interactions */
     z-index: 1; /* Place it above the image */
+}
+
+@media (max-width: 1200px) {
+    * {
+        border-radius: 0 !important;
+    }
 }
